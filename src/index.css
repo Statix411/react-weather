@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root{
+
+}
+
+.maintext{
+  color: #1E90FF;
+}
+
+.adaptive{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 520px;
+    height: 100px;
+}
+
+.form{
+
+}
+
+.weatin{
+    width: 400px;
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 1px solid #1E90FF;
+    padding-left: 10px;
+}
+
+.enter{
+    width: 70px;
+    cursor: pointer;
+    height: 35px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+}
+
+.info{
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 520px;
+    height: 300px;
+    color: #fff;
+    background-color: #1E90FF;
+}
+
+.city{
+    position: absolute;
+    font-size: 26pt;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.clouds{
+    padding-top: 30px;
+    padding-left: 400px;
+    position: absolute;
+}
+
+.temp{
+    padding-top: 25px;
+    padding-left: 420px;
+    font-size: 26pt;
+    position: absolute;
+}
+
+.wind{
+    padding-top: 160px;
+    padding-left: 300px;
+    font-size: 14pt;
+    position: absolute;
+}
+
+.sunr{
+    padding-top: 160px;
+    padding-left: 40px;
+    font-size: 14pt;
+    position: absolute;
+}
+
+.suns{
+    padding-top: 200px;
+    padding-left: 40px;
+    font-size: 14pt;
+    position: absolute;
+}
+
+
+.atmo{
+    padding-top: 200px;
+    padding-left: 300px;
+    font-size: 14pt;
+    position: absolute;
+}
+
+.error{
+    color: red;
+    margin-top: 15px;
+    position: absolute;
+}
